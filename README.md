@@ -80,6 +80,7 @@ next.js-structure
  ┃ ┃ ┣ stringUtils.ts
  ┃ ┃ ┗ timeCalculation.ts
  ┣ .env.local
+ ┣ .gitignore
  ┣ .prettierrc
  ┣ eslint.config.mjs
  ┣ next.config.ts
