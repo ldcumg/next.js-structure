@@ -52,6 +52,7 @@ next.js-structure
 ┃ ┃ ┃ ┗ $Actoins.ts
 ┃ ┃ ┣ api
 ┃ ┃ ┃ ┗ route.ts
+┃ ┃ ┣ globals.css
 ┃ ┃ ┣ layout.tsx
 ┃ ┃ ┗ page.tsx
 ┃ ┣ assets
@@ -102,10 +103,6 @@ next.js-structure
 ┃ ┃ ┗ index.ts
 ┃ ┣ stores
 ┃ ┃ ┗ $Store.ts
-┃ ┣ styles
-┃ ┃ ┣ tailwindStyles
-┃ ┃ ┃ ┗ index.ts
-┃ ┃ ┗ globals.css
 ┃ ┣ types
 ┃ ┃ ┣ api
 ┃ ┃ ┃ ┣ errorTypes.ts
