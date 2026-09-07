@@ -8,6 +8,10 @@ pnpm dlx create-next-app@latest
 ```shell
 pnpm add -D prettier @trivago/prettier-plugin-sort-imports prettier-plugin-tailwindcss
 ```
+### svgr
+```shell
+pnpm add -D @svgr/webpack
+```
 ### tanstack query
 ```shell
 pnpm add @tanstack/react-query
@@ -111,12 +115,13 @@ next.js-structure
 ┃ ┃ ┣ index.ts
 ┃ ┃ ┣ svgr.d.ts
 ┃ ┃ ┗ typeUtils.ts
-┃ ┗ utils
+┃ ┣ utils
 ┃ ┃ ┣ cookie.ts
 ┃ ┃ ┣ handleError.ts
 ┃ ┃ ┣ stateUtills.ts
 ┃ ┃ ┣ stringUtils.ts
 ┃ ┃ ┗ timeCalculation.ts
+┃ ┗ proxy.ts
 ┣ .env.local
 ┣ .gitignore
 ┣ .prettierignore
@@ -124,6 +129,9 @@ next.js-structure
 ┣ README.md
 ┣ eslint.config.mjs
 ┣ next.config.ts
-┣ proxy.ts
+┣ package.json
+┣ pnpm-lock.yaml
+┣ pnpm-workspace.yaml
+┣ postcss.config.mjs
 ┗ tsconfig.json
  ```
