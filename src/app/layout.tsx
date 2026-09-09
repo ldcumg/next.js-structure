@@ -15,12 +15,10 @@ interface LayoutProps{
   children: React.ReactNode;
 }
 
-const RootLayout=({ children }: LayoutProps) =>{
+export default function RootLayout ({ children }: LayoutProps) {
   return (
-    <html lang="en" className={`${pretendard.className} h-full antialiased`}>
+    <html lang="ko" className={`${pretendard.className} h-full antialiased`}>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
 }
-
-export default RootLayout;
