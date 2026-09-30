@@ -38,8 +38,7 @@ next.js-structure
 ┃ ┃ ┣ bug-report-template.md
 ┃ ┃ ┗ feature-request-template.md
 ┃ ┣ workflows
-┃ ┃ ┣ dev-deploy.yml
-┃ ┃ ┗ main-deploy.yml
+┃ ┃ ┗ .gitkeep
 ┃ ┣ CODEOWNERS
 ┃ ┗ PULL_REQUEST_TEMPLATE.md
 ┣ scripts
