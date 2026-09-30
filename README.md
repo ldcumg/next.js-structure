@@ -119,8 +119,10 @@ next.js-structure
 ┃ ┃ ┣ stringUtils.ts
 ┃ ┃ ┗ timeCalculation.ts
 ┃ ┗ proxy.ts
+┣ .coderabbit.yml
 ┣ .env.local
 ┣ .gitignore
+┣ .nvmrc
 ┣ .prettierignore
 ┣ .prettierrc
 ┣ README.md
